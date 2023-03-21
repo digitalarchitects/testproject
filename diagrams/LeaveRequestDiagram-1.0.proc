@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connectorconfiguration="http://wwww.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_l14qIMfMEe2BOeE3E73sgQ" name="LeaveRequestDiagram" bonitaModelVersion="7.12.0-004">
-    <elements xmi:type="process:Pool" xmi:id="_l14qIcfMEe2BOeE3E73sgQ" name="leaveRequest" displayName="Leave Request">
+    <elements xmi:type="process:Pool" xmi:id="_l14qIcfMEe2BOeE3E73sgQ" name="leaveRequest2" version="2.0" displayName="Leave Request 2">
       <elements xmi:type="process:Lane" xmi:id="_l14qIsfMEe2BOeE3E73sgQ" name="Employee lane" actor="_l14qO8fMEe2BOeE3E73sgQ">
         <elements xmi:type="process:StartEvent" xmi:id="_l14qI8fMEe2BOeE3E73sgQ" name="FillRequest" outgoing="_l14qOMfMEe2BOeE3E73sgQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_l14qJMfMEe2BOeE3E73sgQ" name="" content="" returnTypeFixed="true"/>

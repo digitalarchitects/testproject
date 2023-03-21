@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "LeaveRequestStatus",
   "name" : "LeaveRequestStatus",
-  "lastUpdate" : 1679403179350,
+  "lastUpdate" : 1679405246665,
   "rows" : [
     [
       {
@@ -535,7 +535,8 @@
             "value" : "http://"
           },
           "pageToken" : {
-            "type" : "constant"
+            "type" : "constant",
+            "value" : "leave-requests"
           },
           "processName" : {
             "type" : "expression",
@@ -553,7 +554,7 @@
           },
           "target" : {
             "type" : "constant",
-            "value" : "_self"
+            "value" : "_top"
           },
           "appToken" : {
             "type" : "constant"
